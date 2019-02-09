@@ -7,6 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		628D3A6F220EC62300E0709B /* TraktKitTV.h in Headers */ = {isa = PBXBuildFile; fileRef = 628D3A6D220EC62300E0709B /* TraktKitTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628D3A74220EC66A00E0709B /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B9EE920557BA2002B59FC /* URLSessionProtocol.swift */; };
+		628D3A75220EC66A00E0709B /* TraktManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E86851B29F16C00EABC2D /* TraktManager.swift */; };
+		628D3A76220EC66A00E0709B /* CompletionHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C832351DC505C5003EB134 /* CompletionHandlers.swift */; };
+		628D3A77220EC66A00E0709B /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB7FCF1BF8EC990003BBD7 /* Calendars.swift */; };
+		628D3A78220EC66A00E0709B /* Checkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB7FD11BF8ECA20003BBD7 /* Checkin.swift */; };
+		628D3A79220EC66A00E0709B /* Certifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5D8CD2066A8CD002E4356 /* Certifications.swift */; };
+		628D3A7A220EC66A00E0709B /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB7FCD1BF8DD9E0003BBD7 /* Comments.swift */; };
+		628D3A7B220EC66A00E0709B /* Genres.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB7FCB1BF8DD960003BBD7 /* Genres.swift */; };
+		628D3A7C220EC66A00E0709B /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70005682206D102F005319DD /* Lists.swift */; };
+		628D3A7D220EC66A00E0709B /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78D13591B2A341000BA2068 /* Movies.swift */; };
+		628D3A7E220EC66A00E0709B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CC79A61BF805E400A43AD3 /* People.swift */; };
+		628D3A7F220EC66A00E0709B /* Recommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CC79A41BF805DC00A43AD3 /* Recommendations.swift */; };
+		628D3A80220EC66A00E0709B /* Scrobble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CC79A21BF805CF00A43AD3 /* Scrobble.swift */; };
+		628D3A81220EC66A00E0709B /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = A773405F1C07886500A69EA1 /* Search.swift */; };
+		628D3A82220EC66A00E0709B /* Shows.swift in Sources */ = {isa = PBXBuildFile; fileRef = A773405D1C07884B00A69EA1 /* Shows.swift */; };
+		628D3A83220EC66A00E0709B /* Seasons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77340631C079D2500A69EA1 /* Seasons.swift */; };
+		628D3A84220EC66A00E0709B /* Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77340651C079D2D00A69EA1 /* Episodes.swift */; };
+		628D3A85220EC66A00E0709B /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CC79A01BF7C36E00A43AD3 /* Sync.swift */; };
+		628D3A86220EC66A00E0709B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AE55AD1BD4560700A5DFFB /* Users.swift */; };
+		628D3A87220EC66A00E0709B /* SharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77340691C08D82D00A69EA1 /* SharedFunctions.swift */; };
+		628D3A88220EC66A00E0709B /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77602BD1D1BB66D000FA8C4 /* Enums.swift */; };
+		628D3A89220EC66A00E0709B /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7033F2F1C3AE3C4000E40F7 /* Structures.swift */; };
+		628D3A8A220EC66A00E0709B /* TraktSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98621CBF47BA00744566 /* TraktSearchResult.swift */; };
+		628D3A8B220EC66A00E0709B /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759C3B81D47D49200E7F938 /* Pagination.swift */; };
+		628D3A8C220EC66A00E0709B /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759C3B61D47D3BA00E7F938 /* Filters.swift */; };
+		628D3A8D220EC66A00E0709B /* RatingDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054625C1EF3622A003BB24B /* RatingDistribution.swift */; };
+		628D3A8E220EC66A00E0709B /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F7732B1F3C76C60078110E /* Update.swift */; };
+		628D3A8F220EC66A00E0709B /* Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F7732F1F3C77D80078110E /* Alias.swift */; };
+		628D3A90220EC66A00E0709B /* CalendarShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F7E6221EF220160026B8A1 /* CalendarShow.swift */; };
+		628D3A91220EC66A00E0709B /* CalendarMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F7E6241EF220CF0026B8A1 /* CalendarMovie.swift */; };
+		628D3A92220EC66A00E0709B /* TraktCheckin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C832331DC50164003EB134 /* TraktCheckin.swift */; };
+		628D3A93220EC66A00E0709B /* Certification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F7734F1F3D4F550078110E /* Certification.swift */; };
+		628D3A94220EC66A00E0709B /* TraktComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98881CBF4A6A00744566 /* TraktComment.swift */; };
+		628D3A95220EC66A00E0709B /* TraktTrendingComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D369832066C7580008B9D7 /* TraktTrendingComments.swift */; };
+		628D3A96220EC66A00E0709B /* TraktAttachedMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D3698E2066DB0F0008B9D7 /* TraktAttachedMediaItem.swift */; };
+		628D3A97220EC66A00E0709B /* TraktCommentLikedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D369922066DE000008B9D7 /* TraktCommentLikedUser.swift */; };
+		628D3A98220EC66A00E0709B /* TraktTrendingMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF987F1CBF49E700744566 /* TraktTrendingMovie.swift */; };
+		628D3A99220EC66A00E0709B /* TraktMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98811CBF49FF00744566 /* TraktMovie.swift */; };
+		628D3A9A220EC66A00E0709B /* TraktMovieTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98831CBF4A1C00744566 /* TraktMovieTranslation.swift */; };
+		628D3A9B220EC66A00E0709B /* TraktWatchedMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98851CBF4A4000744566 /* TraktWatchedMovie.swift */; };
+		628D3A9C220EC66A00E0709B /* TraktBoxOfficeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC47C91CD6C98F005B0B17 /* TraktBoxOfficeMovie.swift */; };
+		628D3A9D220EC66A00E0709B /* TraktAnticipatedMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A168CD1D445D0A0022E762 /* TraktAnticipatedMovie.swift */; };
+		628D3A9E220EC66A00E0709B /* TraktDVDReleaseMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701EF4B01E88713C00C56499 /* TraktDVDReleaseMovie.swift */; };
+		628D3A9F220EC66A00E0709B /* TraktMovieRelease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FED1F1F3FB96A00169961 /* TraktMovieRelease.swift */; };
+		628D3AA0220EC66A00E0709B /* TraktMostMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D369AF2066EF690008B9D7 /* TraktMostMovie.swift */; };
+		628D3AA1220EC66A00E0709B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF988E1CBF4D3C00744566 /* Person.swift */; };
+		628D3AA2220EC66A00E0709B /* TraktCrewMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98901CBF4E9D00744566 /* TraktCrewMember.swift */; };
+		628D3AA3220EC66A00E0709B /* TraktCastMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98921CBF4F7600744566 /* TraktCastMember.swift */; };
+		628D3AA4220EC66A00E0709B /* CastAndCrew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F7E6311EF2A7050026B8A1 /* CastAndCrew.swift */; };
+		628D3AA5220EC66A00E0709B /* ScrobbleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FED281F3FBD8C00169961 /* ScrobbleResult.swift */; };
+		628D3AA6220EC66A00E0709B /* TraktTrendingShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF986B1CBF483900744566 /* TraktTrendingShow.swift */; };
+		628D3AA7220EC66A00E0709B /* TraktMostShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF986D1CBF484B00744566 /* TraktMostShow.swift */; };
+		628D3AA8220EC66A00E0709B /* TraktAnticipatedShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF986F1CBF486C00744566 /* TraktAnticipatedShow.swift */; };
+		628D3AA9220EC66A00E0709B /* TraktShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98711CBF487600744566 /* TraktShow.swift */; };
+		628D3AAA220EC66A00E0709B /* TraktSeason.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98731CBF48D900744566 /* TraktSeason.swift */; };
+		628D3AAB220EC66A00E0709B /* TraktEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98751CBF48E200744566 /* TraktEpisode.swift */; };
+		628D3AAC220EC66A00E0709B /* TraktShowTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98771CBF490200744566 /* TraktShowTranslation.swift */; };
+		628D3AAD220EC66A00E0709B /* TraktEpisodeTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70005647206BBF47005319DD /* TraktEpisodeTranslation.swift */; };
+		628D3AAE220EC66A00E0709B /* TraktWatchedShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98791CBF495300744566 /* TraktWatchedShow.swift */; };
+		628D3AAF220EC66A00E0709B /* TraktWatchedSeason.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF987B1CBF495D00744566 /* TraktWatchedSeason.swift */; };
+		628D3AB0220EC66A00E0709B /* TraktWatchedEpisodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF987D1CBF49C600744566 /* TraktWatchedEpisodes.swift */; };
+		628D3AB1220EC66A00E0709B /* TraktWatchedProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79E56161D4E7663009CACC7 /* TraktWatchedProgress.swift */; };
+		628D3AB2220EC66A00E0709B /* ShowCollectionProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70393F431F3F4A9100943D34 /* ShowCollectionProgress.swift */; };
+		628D3AB3220EC66A00E0709B /* TraktRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A21701D394E1B006E5D92 /* TraktRating.swift */; };
+		628D3AB4220EC66A00E0709B /* TraktHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B6813D1DA5A97A00D7EAF1 /* TraktHistoryItem.swift */; };
+		628D3AB5220EC66A00E0709B /* TraktCollectedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C810B21DBAAE9A00A5AA28 /* TraktCollectedItem.swift */; };
+		628D3AB6220EC66A00E0709B /* PlaybackProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705462661EF367BA003BB24B /* PlaybackProgress.swift */; };
+		628D3AB7220EC66A00E0709B /* AddToCollectionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70393F2B1F3F2AC500943D34 /* AddToCollectionResult.swift */; };
+		628D3AB8220EC66A00E0709B /* RemoveFromCollectionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70393F2F1F3F2B4C00943D34 /* RemoveFromCollectionResult.swift */; };
+		628D3AB9220EC66A00E0709B /* AddRatingsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70393F331F3F2BE500943D34 /* AddRatingsResult.swift */; };
+		628D3ABA220EC66A00E0709B /* RemoveRatingsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70393F371F3F2C4700943D34 /* RemoveRatingsResult.swift */; };
+		628D3ABB220EC66A00E0709B /* RemoveFromWatchlistResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70393F3B1F3F34C300943D34 /* RemoveFromWatchlistResult.swift */; };
+		628D3ABC220EC66A00E0709B /* AccountSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054626F1EF36D14003BB24B /* AccountSettings.swift */; };
+		628D3ABD220EC66A00E0709B /* FollowRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705462741EF36F9F003BB24B /* FollowRequest.swift */; };
+		628D3ABE220EC66A00E0709B /* Likes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054627E1EF3726B003BB24B /* Likes.swift */; };
+		628D3ABF220EC66A00E0709B /* UsersCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705462821EF3744A003BB24B /* UsersCollection.swift */; };
+		628D3AC0220EC66A00E0709B /* UsersComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C39F3B1EF3869100C3F6A4 /* UsersComments.swift */; };
+		628D3AC1220EC66A00E0709B /* TraktUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF988B1CBF4B8E00744566 /* TraktUser.swift */; };
+		628D3AC2220EC66A00E0709B /* TraktWatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79E562F1D4FBE43009CACC7 /* TraktWatching.swift */; };
+		628D3AC3220EC66A00E0709B /* HiddenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A764CB7F1D7B36960094BE66 /* HiddenItem.swift */; };
+		628D3AC4220EC66A00E0709B /* HideItemResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70374C271F635E7900173E12 /* HideItemResult.swift */; };
+		628D3AC5220EC66A00E0709B /* UnhideItemResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707FE6E91F5D70ED00407769 /* UnhideItemResult.swift */; };
+		628D3AC6220EC66A00E0709B /* ListItemPostResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F773351F3C80A10078110E /* ListItemPostResult.swift */; };
+		628D3AC7220EC66A00E0709B /* RemoveListItemResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F773581F3DC0DA0078110E /* RemoveListItemResult.swift */; };
+		628D3AC8220EC66A00E0709B /* FollowUserResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F7735D1F3DC2160078110E /* FollowUserResult.swift */; };
+		628D3AC9220EC66A00E0709B /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F773611F3DC8AF0078110E /* Friend.swift */; };
+		628D3ACA220EC66A00E0709B /* UserStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70393F251F3F1D8400943D34 /* UserStats.swift */; };
+		628D3ACB220EC66A00E0709B /* TraktList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF98951CBF50DE00744566 /* TraktList.swift */; };
+		628D3ACC220EC66A00E0709B /* TraktListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77602BA1D1B9DCD000FA8C4 /* TraktListItem.swift */; };
+		628D3ACD220EC66A00E0709B /* TraktWatchedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C5D8A22065183E002E4356 /* TraktWatchedItem.swift */; };
+		628D3ACE220EC66A00E0709B /* MLKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76905B51B47B7A6003C7431 /* MLKeychain.swift */; };
+		628D3ACF220EC66A00E0709B /* DateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FF28DC1C568FF600CA5B53 /* DateParser.swift */; };
+		628D3AD0220EC66A00E0709B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79163A41C0D46F200E791BC /* Extensions.swift */; };
+		628D3AD1220EC6A400E0709B /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F7E62A1EF2A3FC0026B8A1 /* Genre.swift */; };
 		70005646206BBD30005319DD /* test_get_users_watching_now.json in Resources */ = {isa = PBXBuildFile; fileRef = 70005645206BBD30005319DD /* test_get_users_watching_now.json */; };
 		70005648206BBF47005319DD /* TraktEpisodeTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70005647206BBF47005319DD /* TraktEpisodeTranslation.swift */; };
 		70005649206BBF47005319DD /* TraktEpisodeTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70005647206BBF47005319DD /* TraktEpisodeTranslation.swift */; };
@@ -470,6 +565,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		628D3A65220EC5EF00E0709B /* TraktKit copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TraktKit copy-Info.plist"; path = "/Users/dylanelliott/Code/Mine/TraktKit/TraktKit copy-Info.plist"; sourceTree = "<absolute>"; };
+		628D3A6B220EC62300E0709B /* TraktKitTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TraktKitTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		628D3A6D220EC62300E0709B /* TraktKitTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraktKitTV.h; sourceTree = "<group>"; };
+		628D3A6E220EC62300E0709B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70005645206BBD30005319DD /* test_get_users_watching_now.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test_get_users_watching_now.json; sourceTree = "<group>"; };
 		70005647206BBF47005319DD /* TraktEpisodeTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraktEpisodeTranslation.swift; sourceTree = "<group>"; };
 		7000564B206BC209005319DD /* test_get_all_episode_translations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test_get_all_episode_translations.json; sourceTree = "<group>"; };
@@ -743,6 +842,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		628D3A68220EC62300E0709B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A70807111D8E1F2D00176B0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -775,6 +881,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		628D3A6C220EC62300E0709B /* TraktKitTV */ = {
+			isa = PBXGroup;
+			children = (
+				628D3A6D220EC62300E0709B /* TraktKitTV.h */,
+				628D3A6E220EC62300E0709B /* Info.plist */,
+			);
+			path = TraktKitTV;
+			sourceTree = "<group>";
+		};
 		70005651206BC7E7005319DD /* Season */ = {
 			isa = PBXGroup;
 			children = (
@@ -1296,7 +1411,9 @@
 				A723DA8A1B917EF300CA217C /* TraktKitMac */,
 				A70807161D8E1F2D00176B0A /* TraktKitWatchOS */,
 				A77E86581B29F09100EABC2D /* TraktKitTests */,
+				628D3A6C220EC62300E0709B /* TraktKitTV */,
 				A77E864A1B29F09100EABC2D /* Products */,
+				628D3A65220EC5EF00E0709B /* TraktKit copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1307,6 +1424,7 @@
 				A77E86541B29F09100EABC2D /* TraktKitTests.xctest */,
 				A723DA891B917EF300CA217C /* TraktKitMac.framework */,
 				A70807151D8E1F2D00176B0A /* TraktKitWatchOS.framework */,
+				628D3A6B220EC62300E0709B /* TraktKitTV.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1366,6 +1484,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		628D3A66220EC62300E0709B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628D3A6F220EC62300E0709B /* TraktKitTV.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A70807121D8E1F2D00176B0A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1393,6 +1519,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		628D3A6A220EC62300E0709B /* TraktKitTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628D3A70220EC62300E0709B /* Build configuration list for PBXNativeTarget "TraktKitTV" */;
+			buildPhases = (
+				628D3A66220EC62300E0709B /* Headers */,
+				628D3A67220EC62300E0709B /* Sources */,
+				628D3A68220EC62300E0709B /* Frameworks */,
+				628D3A69220EC62300E0709B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TraktKitTV;
+			productName = TraktKitTV;
+			productReference = 628D3A6B220EC62300E0709B /* TraktKitTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A70807141D8E1F2D00176B0A /* TraktKitWatchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A708071D1D8E1F2D00176B0A /* Build configuration list for PBXNativeTarget "TraktKitWatchOS" */;
@@ -1475,6 +1619,11 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Maximilian Litteral";
 				TargetAttributes = {
+					628D3A6A220EC62300E0709B = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 6CW3378X23;
+						ProvisioningStyle = Automatic;
+					};
 					A70807141D8E1F2D00176B0A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = U6J8328WE2;
@@ -1513,11 +1662,19 @@
 				A723DA881B917EF300CA217C /* TraktKitMac */,
 				A70807141D8E1F2D00176B0A /* TraktKitWatchOS */,
 				A77E86531B29F09100EABC2D /* TraktKitTests */,
+				628D3A6A220EC62300E0709B /* TraktKitTV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		628D3A69220EC62300E0709B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A70807131D8E1F2D00176B0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1696,6 +1853,107 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		628D3A67220EC62300E0709B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628D3AC2220EC66A00E0709B /* TraktWatching.swift in Sources */,
+				628D3A9D220EC66A00E0709B /* TraktAnticipatedMovie.swift in Sources */,
+				628D3AB2220EC66A00E0709B /* ShowCollectionProgress.swift in Sources */,
+				628D3A9F220EC66A00E0709B /* TraktMovieRelease.swift in Sources */,
+				628D3A8A220EC66A00E0709B /* TraktSearchResult.swift in Sources */,
+				628D3ABE220EC66A00E0709B /* Likes.swift in Sources */,
+				628D3A7D220EC66A00E0709B /* Movies.swift in Sources */,
+				628D3A9C220EC66A00E0709B /* TraktBoxOfficeMovie.swift in Sources */,
+				628D3A79220EC66A00E0709B /* Certifications.swift in Sources */,
+				628D3AB9220EC66A00E0709B /* AddRatingsResult.swift in Sources */,
+				628D3A75220EC66A00E0709B /* TraktManager.swift in Sources */,
+				628D3A84220EC66A00E0709B /* Episodes.swift in Sources */,
+				628D3ACB220EC66A00E0709B /* TraktList.swift in Sources */,
+				628D3A88220EC66A00E0709B /* Enums.swift in Sources */,
+				628D3AC0220EC66A00E0709B /* UsersComments.swift in Sources */,
+				628D3A85220EC66A00E0709B /* Sync.swift in Sources */,
+				628D3A86220EC66A00E0709B /* Users.swift in Sources */,
+				628D3A89220EC66A00E0709B /* Structures.swift in Sources */,
+				628D3ACF220EC66A00E0709B /* DateParser.swift in Sources */,
+				628D3AD0220EC66A00E0709B /* Extensions.swift in Sources */,
+				628D3AAB220EC66A00E0709B /* TraktEpisode.swift in Sources */,
+				628D3AB4220EC66A00E0709B /* TraktHistoryItem.swift in Sources */,
+				628D3AA5220EC66A00E0709B /* ScrobbleResult.swift in Sources */,
+				628D3A96220EC66A00E0709B /* TraktAttachedMediaItem.swift in Sources */,
+				628D3AC6220EC66A00E0709B /* ListItemPostResult.swift in Sources */,
+				628D3A80220EC66A00E0709B /* Scrobble.swift in Sources */,
+				628D3AC3220EC66A00E0709B /* HiddenItem.swift in Sources */,
+				628D3ACE220EC66A00E0709B /* MLKeychain.swift in Sources */,
+				628D3AA0220EC66A00E0709B /* TraktMostMovie.swift in Sources */,
+				628D3A83220EC66A00E0709B /* Seasons.swift in Sources */,
+				628D3A92220EC66A00E0709B /* TraktCheckin.swift in Sources */,
+				628D3AAE220EC66A00E0709B /* TraktWatchedShow.swift in Sources */,
+				628D3A74220EC66A00E0709B /* URLSessionProtocol.swift in Sources */,
+				628D3AB0220EC66A00E0709B /* TraktWatchedEpisodes.swift in Sources */,
+				628D3AB3220EC66A00E0709B /* TraktRating.swift in Sources */,
+				628D3A8E220EC66A00E0709B /* Update.swift in Sources */,
+				628D3A7F220EC66A00E0709B /* Recommendations.swift in Sources */,
+				628D3AC7220EC66A00E0709B /* RemoveListItemResult.swift in Sources */,
+				628D3AC8220EC66A00E0709B /* FollowUserResult.swift in Sources */,
+				628D3A9B220EC66A00E0709B /* TraktWatchedMovie.swift in Sources */,
+				628D3A7B220EC66A00E0709B /* Genres.swift in Sources */,
+				628D3A90220EC66A00E0709B /* CalendarShow.swift in Sources */,
+				628D3A8D220EC66A00E0709B /* RatingDistribution.swift in Sources */,
+				628D3AC9220EC66A00E0709B /* Friend.swift in Sources */,
+				628D3A9A220EC66A00E0709B /* TraktMovieTranslation.swift in Sources */,
+				628D3AA6220EC66A00E0709B /* TraktTrendingShow.swift in Sources */,
+				628D3AA2220EC66A00E0709B /* TraktCrewMember.swift in Sources */,
+				628D3A93220EC66A00E0709B /* Certification.swift in Sources */,
+				628D3A94220EC66A00E0709B /* TraktComment.swift in Sources */,
+				628D3A7A220EC66A00E0709B /* Comments.swift in Sources */,
+				628D3ABD220EC66A00E0709B /* FollowRequest.swift in Sources */,
+				628D3ACA220EC66A00E0709B /* UserStats.swift in Sources */,
+				628D3AAD220EC66A00E0709B /* TraktEpisodeTranslation.swift in Sources */,
+				628D3A95220EC66A00E0709B /* TraktTrendingComments.swift in Sources */,
+				628D3A99220EC66A00E0709B /* TraktMovie.swift in Sources */,
+				628D3A9E220EC66A00E0709B /* TraktDVDReleaseMovie.swift in Sources */,
+				628D3AA4220EC66A00E0709B /* CastAndCrew.swift in Sources */,
+				628D3AAA220EC66A00E0709B /* TraktSeason.swift in Sources */,
+				628D3ABF220EC66A00E0709B /* UsersCollection.swift in Sources */,
+				628D3AB1220EC66A00E0709B /* TraktWatchedProgress.swift in Sources */,
+				628D3A97220EC66A00E0709B /* TraktCommentLikedUser.swift in Sources */,
+				628D3ABB220EC66A00E0709B /* RemoveFromWatchlistResult.swift in Sources */,
+				628D3AA1220EC66A00E0709B /* Person.swift in Sources */,
+				628D3AA9220EC66A00E0709B /* TraktShow.swift in Sources */,
+				628D3ABC220EC66A00E0709B /* AccountSettings.swift in Sources */,
+				628D3A76220EC66A00E0709B /* CompletionHandlers.swift in Sources */,
+				628D3A7E220EC66A00E0709B /* People.swift in Sources */,
+				628D3AB7220EC66A00E0709B /* AddToCollectionResult.swift in Sources */,
+				628D3A82220EC66A00E0709B /* Shows.swift in Sources */,
+				628D3AC4220EC66A00E0709B /* HideItemResult.swift in Sources */,
+				628D3A8F220EC66A00E0709B /* Alias.swift in Sources */,
+				628D3AB5220EC66A00E0709B /* TraktCollectedItem.swift in Sources */,
+				628D3A77220EC66A00E0709B /* Calendars.swift in Sources */,
+				628D3ACC220EC66A00E0709B /* TraktListItem.swift in Sources */,
+				628D3AC1220EC66A00E0709B /* TraktUser.swift in Sources */,
+				628D3A87220EC66A00E0709B /* SharedFunctions.swift in Sources */,
+				628D3A78220EC66A00E0709B /* Checkin.swift in Sources */,
+				628D3ABA220EC66A00E0709B /* RemoveRatingsResult.swift in Sources */,
+				628D3AC5220EC66A00E0709B /* UnhideItemResult.swift in Sources */,
+				628D3AA7220EC66A00E0709B /* TraktMostShow.swift in Sources */,
+				628D3AA3220EC66A00E0709B /* TraktCastMember.swift in Sources */,
+				628D3A98220EC66A00E0709B /* TraktTrendingMovie.swift in Sources */,
+				628D3AA8220EC66A00E0709B /* TraktAnticipatedShow.swift in Sources */,
+				628D3A8C220EC66A00E0709B /* Filters.swift in Sources */,
+				628D3AB6220EC66A00E0709B /* PlaybackProgress.swift in Sources */,
+				628D3AD1220EC6A400E0709B /* Genre.swift in Sources */,
+				628D3ACD220EC66A00E0709B /* TraktWatchedItem.swift in Sources */,
+				628D3A8B220EC66A00E0709B /* Pagination.swift in Sources */,
+				628D3A7C220EC66A00E0709B /* Lists.swift in Sources */,
+				628D3AAC220EC66A00E0709B /* TraktShowTranslation.swift in Sources */,
+				628D3AB8220EC66A00E0709B /* RemoveFromCollectionResult.swift in Sources */,
+				628D3A91220EC66A00E0709B /* CalendarMovie.swift in Sources */,
+				628D3AAF220EC66A00E0709B /* TraktWatchedSeason.swift in Sources */,
+				628D3A81220EC66A00E0709B /* Search.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A70807101D8E1F2D00176B0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2034,6 +2292,104 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		628D3A71220EC62300E0709B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6CW3378X23;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TraktKitTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylanelliott.TraktKitTV;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		628D3A72220EC62300E0709B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6CW3378X23;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TraktKitTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylanelliott.TraktKitTV;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		628D3A73220EC62300E0709B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6CW3378X23;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TraktKitTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylanelliott.TraktKitTV;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Distribution;
+		};
 		A708071A1D8E1F2D00176B0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2471,6 +2827,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		628D3A70220EC62300E0709B /* Build configuration list for PBXNativeTarget "TraktKitTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628D3A71220EC62300E0709B /* Debug */,
+				628D3A72220EC62300E0709B /* Release */,
+				628D3A73220EC62300E0709B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A708071D1D8E1F2D00176B0A /* Build configuration list for PBXNativeTarget "TraktKitWatchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
